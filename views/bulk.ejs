@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bulk Form</title>
+</head>
+<body>
+  <h1>Bulk Form</h1>
+  <form action="/bulk" method="POST">
+    <label for="topic">Topic:</label><br>
+    <input type="text" id="topic" name="topic" required><br><br>
+    <label for="output_format">Output Format:</label><br>
+    <select id="output_format" name="output_format" required>
+      <option value="txt">Text</option>
+      <option value="json">JSON</option>
+    </select><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
