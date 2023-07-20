@@ -336,7 +336,7 @@ app.post('/file', (req, res) => {
   lines.forEach((url) => {
     if (url.trim() !== '') {
       // Skip empty URLs
-      if (urlCount >= 50) {
+      if (urlCount >= 20) {
         res.status(400).send('Only 50 URLs are allowed. Skipping remaining URLs.');
         return; // Exit the loop
       }
