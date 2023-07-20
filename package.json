@@ -1,4 +1,14 @@
 {
+  "name": "Scraper-V1",
+  "version": "0.0.1",
+  "description": "Express API for bulk scraping",
+  "main": "xx.js",
+  "scripts": {
+    "start": "node xx.js"
+  },
+  "keywords": [],
+  "author": "iimadouu",
+  "license": "ISC"
   "dependencies": {
     "agentkeepalive": "^4.3.0",
     "archiver": "^5.3.1",
