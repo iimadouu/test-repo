@@ -454,7 +454,7 @@ app.post('/bulk', async (req, res) => {
     // Delete the folder after 3 minutes
     setTimeout(() => {
       deleteFolder(folderName);
-    }, 3 * 60 * 1000); // 3 minutes in milliseconds
+    }, 10 * 60 * 1000); // 3 minutes in milliseconds
 
   } catch (error) {
     const errorMessage = `Error in bulk route: ${error}`
