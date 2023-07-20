@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "iimadouu",
-  "license": "ISC"
+  "license": "ISC",
   "dependencies": {
     "agentkeepalive": "^4.3.0",
     "archiver": "^5.3.1",
